@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Launch Screen-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController title="Launch Screen" id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Remote control - V1.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3y-2G-u8Z">
+                                <rect key="frame" x="90" y="80" width="140" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo_minibot_e10" translatesAutoresizingMaskIntoConstraints="NO" id="e9s-WE-BCB">
+                                <rect key="frame" x="30" y="172" width="260" height="224"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="e9s-WE-BCB" secondAttribute="height" multiplier="347:299" id="O3x-Dw-pBr"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_minibot_titol" translatesAutoresizingMaskIntoConstraints="NO" id="sW4-c5-Biz">
+                                <rect key="frame" x="10" y="30" width="300" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="jE1-oy-EKw"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ISM: Mobile App Programing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZaE-t2-rkN">
+                                <rect key="frame" x="13" y="123" width="294" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Robot Activity" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AxY-qX-Lx4">
+                                <rect key="frame" x="117.5" y="416" width="85" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="-3" translatesAutoresizingMaskIntoConstraints="NO" id="BAB-bA-jwR">
+                                <rect key="frame" x="101.5" y="511.5" width="117.5" height="46.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="esade" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i8X-Xm-bHa">
+                                        <rect key="frame" x="0.0" y="0.0" width="117.5" height="39.5"/>
+                                        <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="32"/>
+                                        <color key="textColor" red="0.1340371668" green="0.29641690850000002" blue="0.6290591955" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RAMON LLULL UNIVERSITY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oaR-e7-TuW">
+                                        <rect key="frame" x="0.0" y="36.5" width="117.5" height="10"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="8"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="oaR-e7-TuW" firstAttribute="leading" secondItem="BAB-bA-jwR" secondAttribute="leading" id="SaJ-DN-dRX"/>
+                                    <constraint firstItem="i8X-Xm-bHa" firstAttribute="leading" secondItem="BAB-bA-jwR" secondAttribute="leading" id="idz-Ua-b9h"/>
+                                    <constraint firstAttribute="trailing" secondItem="oaR-e7-TuW" secondAttribute="trailing" id="ml0-bt-QV0"/>
+                                    <constraint firstAttribute="trailing" secondItem="i8X-Xm-bHa" secondAttribute="trailing" id="nt6-Hv-doU"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="sW4-c5-Biz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="3lK-sd-VFd"/>
+                            <constraint firstItem="e9s-WE-BCB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="4aa-RS-0Lc"/>
+                            <constraint firstItem="AxY-qX-Lx4" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="5X9-UF-0LC"/>
+                            <constraint firstItem="e9s-WE-BCB" firstAttribute="top" secondItem="ZaE-t2-rkN" secondAttribute="bottom" constant="20" id="GRx-BZ-m16"/>
+                            <constraint firstItem="e9s-WE-BCB" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Ju0-El-Znn"/>
+                            <constraint firstItem="AxY-qX-Lx4" firstAttribute="top" secondItem="e9s-WE-BCB" secondAttribute="bottom" constant="20" id="LEG-DG-d5H"/>
+                            <constraint firstAttribute="trailing" secondItem="e9s-WE-BCB" secondAttribute="trailing" constant="30" id="S1U-nj-r9K"/>
+                            <constraint firstItem="sW4-c5-Biz" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Wop-1b-cEC"/>
+                            <constraint firstItem="BAB-bA-jwR" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Zx4-Fj-xYZ"/>
+                            <constraint firstItem="e9s-WE-BCB" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="30" id="cNN-g2-tDe"/>
+                            <constraint firstItem="sW4-c5-Biz" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="10" id="d5M-dl-ZE6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BAB-bA-jwR" secondAttribute="bottom" constant="10" id="ipN-Gl-pd5"/>
+                            <constraint firstItem="Y3y-2G-u8Z" firstAttribute="top" secondItem="sW4-c5-Biz" secondAttribute="bottom" constant="10" id="lRh-vZ-Wse"/>
+                            <constraint firstItem="Y3y-2G-u8Z" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="tDW-Aq-SI0"/>
+                            <constraint firstAttribute="trailing" secondItem="sW4-c5-Biz" secondAttribute="trailing" constant="10" id="zHU-hh-b1o"/>
+                            <constraint firstItem="ZaE-t2-rkN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="zLw-N1-09T"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo_minibot_e10" width="1073" height="870"/>
+        <image name="logo_minibot_titol" width="1853" height="491"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
