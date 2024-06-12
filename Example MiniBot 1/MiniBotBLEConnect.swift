@@ -2,7 +2,7 @@
 //  MiniBotBLEConnect.swift
 //  MiniBot ESADE
 //
-//  Created by Francesc Roig on 14/3/22.
+//  Created by Arlette Osuna on 20/3/24.
 //
 
 import Foundation

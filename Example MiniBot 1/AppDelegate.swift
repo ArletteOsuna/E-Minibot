@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Example MiniBot 1
 //
-//  Created by Francesc Roig on 20/3/22.
+//  Created by Arlette Osuna on 20/3/24.
 //
 
 import UIKit
